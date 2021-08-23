@@ -1,2 +1,2 @@
-# neofetch-_counter
+# neofetch_counter
 A neofetch counter.
