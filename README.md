@@ -7,5 +7,5 @@ $ make install # by default, install path is set to /usr (this should be the sam
 ```
 uninstall
 ```
-$ make uninstall # by default, install path is set to /usr/ (this should be the same folder neofetch is located). Use PREFIX=PATH to override.
+$ make uninstall # by default, install path is set to /usr (this should be the same folder neofetch is located). Use PREFIX=PATH to override.
 ```
