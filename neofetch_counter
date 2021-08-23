@@ -1,0 +1,8 @@
+#!/bin/bash
+num=$(cat $HOME/.neofetch_count)
+num=$((num + 1))
+echo $num > $HOME/.neofetch_count
+neofetch2 $@
+BLUE="\033[38;5;110m"
+RESET="\033[0m"
+echo -e "${BLUE}You have ran neofetch $num times.$RESET"
